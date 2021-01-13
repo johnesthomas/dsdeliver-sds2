@@ -1,6 +1,8 @@
 
 import { formatPrice } from './helpers';
 import { Product } from './types';
+import 'intl';
+import 'intl/locale-data/json/pt-BR';
 
 type Props = {
     product: Product

@@ -22,7 +22,7 @@ function Home() {
             </View>
             <View style={styles.footer}>                
                 <RectButton style={styles.button} onPress={handleOnPress}>
-                    <Text style={styles.buttonText}>Clique</Text>
+                    <Text style={styles.buttonText}>Ver pedidos</Text>
                 </RectButton>
             </View>
 
